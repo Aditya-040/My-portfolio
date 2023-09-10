@@ -9,13 +9,15 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
-    e.preventDefault();
+     e.preventDefault();
     emailjs.sendForm('service_h1inurs', 'template_l0jd3tr', form.current, 'p8VCLFLokFbwBzJxc')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+      
+      document.getElementById("_form").reset();
   };
 
  

@@ -58,7 +58,12 @@
 }
 .intropara{
     font-size: medium;
-    font-weight: 200;
-   
+    font-weight: 300;
+
 }
 
+@media only screen and (max-width:720px){
+.bg{
+    opacity: 0.3;
+}
+}
