@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-80} duration={500} className="desktopMenuListItem" >About</Link>
         <Link activeClass='active' to='portfolio' spy={true} smooth={true} offset={-80} duration={500} className="desktopMenuListItem" >Portfolio</Link>
         <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-80} duration={500} className="desktopMenuListItem" >Contact</Link>
-        <a  href='https://drive.google.com/file/d/1tHtx8mBL39AtXSv90kTwk3N_JjJW074f/view?usp=sharing' rel="noreferrer" target="_blank" className="desktopMenuListItem">Resume</a>
+        <a  href='https://drive.google.com/file/d/1hXmShusgyzEZx53vat75iwxOPnPY-Lgx/view?usp=sharing' rel="noreferrer" target="_blank" className="desktopMenuListItem">Resume</a>
        
         </div>
         <button onClick={ ()=>{document.getElementById('contact').scrollIntoView({behavior:'smooth'});}}className="desktopmenubtn">
